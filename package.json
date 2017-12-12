@@ -1,7 +1,7 @@
 {
   "preferGlobal": true,
   "name": "learnyouhtml-glitch",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Learn you how to create your first web-page",
   "bin": {
     "learnyouhtml": "./bin/learnyouhtml"
