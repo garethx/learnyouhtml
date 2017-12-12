@@ -81,11 +81,13 @@ module.exports = (dirname) => {
       server.listen(process.env.HOST || 3000, () => {
         console.log(`
           Your webpage is served at /results
+          Hit Ctrl+C to exit.
         `);
       });
     } else {
       console.log(`
         Your webpage is served at /results
+        Hit Ctrl+C to exit.
       `);
     }
   };
