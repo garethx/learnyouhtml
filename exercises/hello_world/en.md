@@ -28,21 +28,11 @@ You need to have a _browser_ — a program to read HTML documents and display th
 * [Google Chrome](https://www.google.com/chrome)
 * [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
 
-### Editor
-
-HTML-document could be created in any text editor, even Notepad. Nevertheless, it would be better if you will use a special editor with useful features, like syntax highlighting, tabs, autocompletions, etc.
-
-We recommend you one of these text editors:
-
-* [Atom](https://atom.io)
-* [Sublime Text](https://www.sublimetext.com/)
-* [Brackets](http://brackets.io/)
-
 ### How to use this workshopper?
 
 This workshopper will guide you through the simple exercises which explain the core principles of HTML. In most cases, it's enough to use only three commands:
 
-* `learnyouhtml run file.html` will serve a local server at `http://localhost:3000/` with a preview of `file.html`.
+* `learnyouhtml run file.html` will serve a preview of `file.html` at `/results`.
 * `learnyouhtml verify file.html` will verify your file.
 * `learnyouhtml help` shows a help message.
 
