@@ -77,11 +77,19 @@ module.exports = (dirname) => {
       res.send(result.toString());
     });
 
-    server.listen(process.env.HOST || 3000, () => {
+    if(server.address()==null){
+      server.listen(process.env.HOST || 3000, () => {
+        console.log(`
+          Your webpage is served at /results
+          Hit Ctrl+C to exit.
+        `);
+      });
+    } else {
       console.log(`
         Your webpage is served at /results
+        Hit Ctrl+C to exit.
       `);
-    });
+    }
   };
 
   return exports;
